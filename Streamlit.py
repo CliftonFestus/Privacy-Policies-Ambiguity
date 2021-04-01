@@ -26,7 +26,7 @@ chart_dict = {}
 columns_queries = ["Keyword", "Phrase", "Relevance"]
 
 
-# file read
+# file read data
 for i in filelist:
     if i.endswith(".txt"):
         file_names.append(i)
